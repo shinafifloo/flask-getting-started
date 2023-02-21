@@ -12,7 +12,7 @@ def welcome():
         "welcome.html",
         cards=db
     )
-
+ 
 
 @app.route('/card/<int:index>')
 def card_view(index):
